@@ -4,8 +4,10 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def test(a, b):
-    print("a =", a, '\n',  "b =", b)
+def test():
+    a = "Привет,"
+    b = input("Введите свое имя:")
+    print(a, b)
 
 def test2(a, b, c):
     print("a =", a, '\n',  "b =", b, '\n', "c =", c)
@@ -15,7 +17,7 @@ def test2(a, b, c):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    test(4, 5647)
+    test()
     test2(6, 9, 4)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
